@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    
+    <title>Login 1</title>
+</head>
+<body>
+    <form action="action_page.json" method="post"  aria-label="Formulario de incio de sesión">
+        <div class="imgcontainer">
+            <img src="img_avatar.jpg" alt="Avatar" class="avatar">
+        </div>
+        <div class="container">
+            <label for="uname"><b>Nombre de Usuario:</b></label>
+            <input type="text" name="uname"  aria-required="true" aria-describedby="username-error" placeholder="Escriba el Nombre de Usuario" required>
+
+            <label for="psw" ><b>Contraseña:</b></label>
+            <input type="password" name="psw"  aria-required="true" aria-describedby="password-error" placeholder="Escriba la Contraseña" required>
+
+            <button type="submit" aria-label="Entrar">Entrar</button>
+            <label>
+                <input type="checkbox" name="remember" checked="checked">Recuerde
+            </label>
+        </div> 
+
+        <div class="container" style="background-color: #f1f1f1;"></div>
+            <button type="button" class="cancelbtn">Cancelar</button>
+            <span class="psw">¿Ha olvidado su <a href="#">contraseña?</a></span>
+    </form>
+</body>
+<script src="main.js"></script>
+</html>
