@@ -1,0 +1,24 @@
+{
+    "users": [
+        {
+            "username": "diego_dev",
+            "password": "devPass123"
+        },
+        {
+            "username": "luna_art",
+            "password": "pixelBee456"
+        },
+        {
+            "username": "astro_coder",
+            "password": "cosmo789"
+        },
+        {
+            "username": "nature_ui",
+            "password": "leafDesign321"
+        },
+        {
+            "username": "phaser_master",
+            "password": "sceneSwitch007"
+        }
+    ]
+}

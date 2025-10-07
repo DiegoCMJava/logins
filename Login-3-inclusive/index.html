@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Inclusive</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="loginForm" aria-labelledby="LoginTitle">
+        <h2 id="loginTitle">Inicio de sesión</h2>
+        <label for="username">Usuario:</label>
+        <input type="text" name="username" id="username" placeholder="Escriba nombre de usuario" required>
+
+        <label for="password">Contraseña:</label>
+        <input type="password" name="password" id="password" placeholder="Escriba la contraseña" required>
+
+        <button type="submit">Ingresar</button>
+        <p id="message" aria-live="polite"></p>
+    </form>
+</body>
+<script src="script.js"></script>
+</html>
