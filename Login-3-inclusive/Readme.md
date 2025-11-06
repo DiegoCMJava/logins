@@ -1,4 +1,4 @@
-Este login es creado con la ayuda de Copilot
+# login creado con la ayuda de Copilot  
 
 Atributos funcionales estándar de
 Estos controlan cómo se envía y procesa el formulario:
@@ -24,3 +24,4 @@ Evitar usar
  o como campos interactivos; usar elementos semánticos como , , etc.
 Proporcionar mensajes de error claros y accesibles, idealmente con aria-live para que los lectores de pantalla los anuncien.
 Asegurar que todos los elementos sean accesibles por teclado, evitando interacciones que dependan solo del mouse.
+
