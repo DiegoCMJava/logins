@@ -1,0 +1,56 @@
+html {
+    box-sizing: border-box;
+}
+*::after,
+::before {
+    box-sizing: inherit;
+}
+body {
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    background-color: #59647B;/*#343a40*/
+}
+main {
+    width: 50% !important;
+    background-color: #CCD8E7;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    border-radius: 4px;
+}
+.is-required::after {
+    content: " *";
+    margin-left: .5px;
+    color: red;
+    font-weight: bold;
+}
+.error-message {
+    color: red;
+    display: none;
+}
+/* clases  */
+
+/* fin clases  */
+
+/* mediaquieries*/
+@media (max-width: 600px) {
+    main {
+        width: 95% !important;
+        display: block;
+        justify-items: center;
+    }
+    
+}
+@media (max-width: 768px){
+    main {
+        width: 95% !important;
+    }
+}
+@media (max-width: 992px){
+    main {
+        width: 90%;
+    }
+}
